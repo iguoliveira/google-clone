@@ -16,7 +16,7 @@ navbar {
   padding: 0.7vw 1vw 0 0;
 }
 
-.navbar-elements {
+navbar .navbar-elements {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,17 +26,17 @@ navbar {
   gap: 1vw;
 }
 
-.normal-buttons {
+navbar .normal-buttons {
   font-size: 12px;
   color: #474747;
   cursor: pointer;
 }
 
-.normal-buttons:hover {
+navbar .normal-buttons:hover {
   text-decoration: underline;
 }
 
-.dropdown {
+navbar .dropdown {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,12 +52,12 @@ navbar {
   width: 2vw;
 }
 
-.dropdown:hover {
+navbar .dropdown:hover {
   background-color: #b6b6b6;
   border-radius: 15px;
 }
 
-.login-button {
+navbar .login-button {
   font-size: 14px;
   background-color: #2776dd;
   color: white;
@@ -66,7 +66,7 @@ navbar {
   cursor: pointer;
 }
 
-.login-button:hover {
+navbar .login-button:hover {
   background-color: #2b7de9;
   -webkit-box-shadow: 0 1px 2px 0 rgba(66, 133, 244, 0.3), 0 1px 3px 1px rgba(66, 133, 244, 0.15);
           box-shadow: 0 1px 2px 0 rgba(66, 133, 244, 0.3), 0 1px 3px 1px rgba(66, 133, 244, 0.15);
@@ -86,7 +86,7 @@ section {
   min-height: 60vh;
 }
 
-.main-container {
+section .main-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,11 +102,11 @@ section {
           align-items: center;
 }
 
-.google-logo {
+section .main-container .google-logo {
   cursor: pointer;
 }
 
-.search-bar {
+section .main-container .search-bar {
   border: 1px solid #cfcfcf;
   border-radius: 20px;
   width: 30vw;
@@ -114,21 +114,21 @@ section {
   margin-top: 1vw;
 }
 
-.search-bar:focus {
+section .main-container .search-bar:focus {
   outline: none !important;
   -webkit-box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
           box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
   border-color: rgba(223, 225, 229, 0);
 }
 
-.search-bar:hover {
+section .main-container .search-bar:hover {
   outline: none !important;
   -webkit-box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
           box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
   border-color: rgba(223, 225, 229, 0);
 }
 
-.search-buttons-container {
+section .main-container .search-buttons-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,11 +136,12 @@ section {
   margin-top: 1vw;
 }
 
-.search-buttons {
+section .main-container .search-buttons-container .search-buttons {
   background-color: #eeeeee;
   padding: 10px;
   border-radius: 4px;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .footer {
@@ -151,15 +152,16 @@ section {
   right: 0px;
 }
 
-.footer-main-title {
+.footer .footer-main-title {
   padding: 15px 30px;
   border-bottom: 1px solid #dadce0;
   font-size: 15px;
   color: #70757a;
   border-bottom: 1px solid #dadce0;
+  cursor: pointer;
 }
 
-.footer-elements {
+.footer .footer-elements {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,25 +172,27 @@ section {
   padding: 0 20px;
 }
 
-.left-elements {
+.footer .footer-elements .left-elements {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.left-elements div {
+.footer .footer-elements .left-elements div {
   padding: 15px 15px;
   font-size: 14px;
+  cursor: pointer;
 }
 
-.right-elements {
+.footer .footer-elements .right-elements {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.right-elements div {
+.footer .footer-elements .right-elements div {
   padding: 15px 15px;
   font-size: 14px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
